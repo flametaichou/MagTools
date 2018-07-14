@@ -1,0 +1,55 @@
+//Предметы
+item.MagnanimousSword.name=Благородный меч
+item.MagnanimousPick.name=Благородная кирка
+item.MagnanimousAxe.name=Благородный топор
+item.MagnanimousHatchet.name=Благородный топорик
+item.MagnanimousHammer.name=Благородный молот
+item.MagnanimousShovel.name=Благородная лопата
+item.MagnanimousEarthMover.name=Благородная лопата
+item.MagnanimousSapling.name=Благородный саженец
+item.MagnanimousGem.name=Благородный кристалл
+item.HardenedHandle.name=Крепкая рукоять
+
+item.MagSwordBlade.name=Лезвие благородного меча
+item.MagPickHead.name=Полотно благородной кирки
+item.MagHammerHead.name=Ударная часть благородного молота
+item.MagShovelHead.name=Ковш благородной лопаты
+item.MagAxeHead.name=Лезвие благородного топора
+item.MagHatchetHead.name=Лезвие благородного топорика
+item.MagHoeHead.name=Полотно благородной мотыги
+item.MagEarthMoverHead.name=Ковш благородной лопаты
+item.MagStick.name=Палка из благородной древесины
+
+//Блоки
+tile.MagLog.name=Благородная древесина
+tile.MagLeaves.name=Благородная листва
+tile.MagPlank.name=Доски из благородной древесины
+tile.MagStairs.name=Ступеньки из благородной древесины
+tile.MagSlab.name=Плита из благородной древесины
+
+//Сообщения
+phrase.magtools.does=Наносит
+phrase.magtools.xpdamage=урона опытом
+phrase.magtools.goes=Добывает в
+phrase.magtools.timesfaster=раз быстрее
+phrase.magtools.haslevel=Имеет бонус добычи
+phrase.magtools.dropbonus=уровня
+
+//Информация
+phrase.magtools.hammerinfo=Добывает область 3x3
+phrase.magtools.earthmoverinfo=Копает область 3x3
+
+
+//Информация о насадках инструментов
+phrase.magtools.handleinfo=Таким орудуют только герои
+phrase.magtools.handleinfo2=Соедините с насадкой инструмента на наковальне
+phrase.magtools.hammerheadinfo=Насадка благородного молота
+phrase.magtools.axeheadinfo=Насадка благородного топора
+phrase.magtools.shovelheadinfo=Насадка благородной лопаты
+phrase.magtools.earthmoverheadinfo=Насадка благородной лопаты
+phrase.magtools.swordbladeinfo=Лезвие благородного меча
+phrase.magtools.pickheadinfo=Насадка благородной кирки
+phrase.magtools.geminfo=Один из самых ценных кристаллов
+phrase.magtools.magstickinfo=Не ваша обычная палка
+
+phrase.holdshift=Удерживайте Shift

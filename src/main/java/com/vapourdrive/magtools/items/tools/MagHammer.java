@@ -3,6 +3,7 @@ package com.vapourdrive.magtools.items.tools;
 import java.text.DecimalFormat;
 import java.util.List;
 
+import com.vapourdrive.magtools.utils.LangUtils;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -53,7 +54,7 @@ public class MagHammer extends ItemPickaxe
 		float Bonus = ((float) player.experienceLevel) / 75;
 		if (ConfigInfo.EnableXPSpeed)
 		{
-			list.add(EnumChatFormatting.GREEN + "Goes " + (new DecimalFormat("#.##").format(1.0F + Bonus)) + " Times Faster");
+			list.add(EnumChatFormatting.GREEN + LangUtils.Translate("phrase.magtools.goes") + " " + (new DecimalFormat("#.##").format(1.0F + Bonus)) + " " + LangUtils.Translate("phrase.magtools.timesfaster"));
 		}
 	}
 

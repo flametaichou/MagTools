@@ -3,6 +3,7 @@ package com.vapourdrive.magtools.items.tools;
 import java.text.DecimalFormat;
 import java.util.List;
 
+import com.vapourdrive.magtools.utils.LangUtils;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -49,7 +50,7 @@ public class MagPick extends ItemPickaxe
 		float Bonus = ((float) player.experienceLevel) / 75;
 		if (ConfigInfo.EnableXPSpeed)
 		{
-			list.add(EnumChatFormatting.GREEN + "Goes " + (new DecimalFormat("#.##").format(1.0F + Bonus)) + " Times Faster");
+			list.add(EnumChatFormatting.GREEN + LangUtils.Translate("phrase.magtools.goes") + " " + (new DecimalFormat("#.##").format(1.0F + Bonus)) + " " + LangUtils.Translate("phrase.magtools.timesfaster"));
 		}
 
 		if (ConfigInfo.EnablePickFortune)
@@ -59,7 +60,7 @@ public class MagPick extends ItemPickaxe
 			{
 				fortune = 10;
 			}
-			list.add(EnumChatFormatting.GREEN + "Has Level " + fortune + " Drop Bonus");
+			list.add(EnumChatFormatting.GREEN + LangUtils.Translate("phrase.magtools.haslevel") + " " + fortune + " " + LangUtils.Translate("phrase.magtools.dropbonus"));
 		}
 	}
 

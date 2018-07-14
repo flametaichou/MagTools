@@ -34,6 +34,12 @@ tile.MagSlab.name=Magnanimous Slab
 //Context - "Does 10 Experience Damage"
 phrase.magtools.does=Does
 phrase.magtools.xpdamage=Experience Damage
+//Context - "Goes 2 Times Faster"
+phrase.magtools.goes=Goes
+phrase.magtools.timesfaster=Times Faster
+//Context - "Has level 3 Drop Bonus"
+phrase.magtools.haslevel=Has Level
+phrase.magtools.dropbonus=Drop Bonus
 
 //ToolInfo
 phrase.magtools.hammerinfo=Mines in 3x3 area

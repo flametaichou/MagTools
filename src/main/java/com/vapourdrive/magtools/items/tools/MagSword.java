@@ -65,7 +65,10 @@ public class MagSword extends ItemSword
 			{
 				yVelocity = 0.15;
 			}
-			entity.setVelocity(xVelocity, yVelocity, zVelocity);
+			// Entity.setVelocity is client method
+			if (player.worldObj.isRemote) {
+				entity.setVelocity(xVelocity, yVelocity, zVelocity);
+			}
 			entity.attackEntityFrom(DamageSource.magic, player.experienceLevel / 10);
 		}
 		return false;
